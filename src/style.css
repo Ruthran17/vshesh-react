@@ -1,0 +1,135 @@
+.heading{
+  color: blue;
+  font-size: 20px;
+}
+
+.lable-Text {
+  display: inline-block;
+  width: 225px;
+  font-size: 22px;
+}
+
+.font{
+  font-size: 22px;
+}
+
+.bottom-space{
+  margin-bottom: 6px;
+}
+
+.center-text{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input-space{
+  width: 300px;
+  /* height: 16px; */
+  font-size: 22px;
+}
+
+.ship-img{
+  width: 200px;
+}
+
+.main-content{
+  height: 97vh;
+}
+
+.header {
+  height: 10%;
+  border: 3px solid red;
+}
+
+.body {
+  height: 90%;
+  border: 3px solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  border: 3px solid blue;
+    width: 25%;
+}
+
+.content{
+  border: 3px solid;
+  width: 75%;
+}
+
+.pages{
+  border: 3px solid red;
+    height: 90%;
+}
+
+.footer{
+  border: 3px solid green;
+  height: 10%;
+}
+
+.btn{
+  border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.active-btn{
+  background-color: blue;
+}
+
+ #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+} 
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+} 
+
+.profile-image{
+  width: 30px;
+  border-radius: 50px;
+}
+
+.create-btn{
+  background-color: #3f51b5;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.icon{
+  width: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.icon-align{
+  display: flex;
+  flex-direction: row;
+}
